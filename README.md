@@ -1,7 +1,7 @@
 # jigsaw_solver_dacon
 [대학 대항전 : 퍼즐 이미지 AI 경진대회 1등 솔루션](https://dacon.io/competitions/official/236207/codeshare/9670?page=1&dtype=recent)  
 
-![image](https://github.com/co1dtype/jigsaw_solver_dacon/assets/76248669/3917fcc2-fa0b-433d-b225-f3988404fcee)
+![image](https://github.com/co1dtype/jigsaw_solver_dacon/assets/76248669/48b9d203-cafa-4a1a-8f60-a87bea8fcaa4)
   
   
 baseline에서 코드를 수정 및 추가하였습니다.
