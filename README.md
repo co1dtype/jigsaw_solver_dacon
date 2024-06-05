@@ -1,7 +1,9 @@
 # jigsaw_solver_dacon
+[대학 대항전 : 퍼즐 이미지 AI 경진대회 1등 솔루션](https://dacon.io/competitions/official/236207/codeshare/9670?page=1&dtype=recent)  
 
-![Example Image]([https://dacon.s3.ap-northeast-2.amazonaws.com/attach/talkboard/236207/495721/1708044003398627.png](https://github.com/co1dtype/jigsaw_solver_dacon/blob/main/img/1708044003398627%20(1).png?raw=true))
-
+![image](https://github.com/co1dtype/jigsaw_solver_dacon/assets/76248669/3917fcc2-fa0b-433d-b225-f3988404fcee)
+  
+  
 baseline에서 코드를 수정 및 추가하였습니다.
 > Model을 SegFormer를 사용했습니다.  
 > Adam에서 AdamW, learning rate, weight decay를 튜닝하였습니다. 
@@ -32,6 +34,14 @@ baseline에서 코드를 수정 및 추가하였습니다.
 | tqdm            | 4.63.1                          |
 | PIL             | 9.0.1                           |
 
+
+# Dataset
+![image](https://github.com/co1dtype/jigsaw_solver_dacon/assets/76248669/f7aa2201-a05d-4aed-93cc-b8d439d17b6d)
+ 4x4의 격자 형태의 16개의 조각으로 구성된 순서가 뒤바뀐 퍼즐 이미지로 이루어져 있다.
+
+ 
+
+ 
 
 
 
