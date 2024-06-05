@@ -1,5 +1,6 @@
 # jigsaw_solver_dacon
 [대학 대항전 : 퍼즐 이미지 AI 경진대회 1등 솔루션](https://dacon.io/competitions/official/236207/codeshare/9670?page=1&dtype=recent)  
+[PPT 보기](https://github.com/co1dtype/jigsaw_solver_dacon/blob/main/DACON_PPT.pdf)
 
 ![image](https://github.com/co1dtype/jigsaw_solver_dacon/assets/76248669/48b9d203-cafa-4a1a-8f60-a87bea8fcaa4)
   
