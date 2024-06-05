@@ -1,0 +1,47 @@
+DIRECTORY:
+  dataset: /home/hyj/ChanHyung/SSL/PUZZLE_AI/train
+
+TRAINER:
+  model: segformer
+  criterion: crossentropy
+  optimizer: adamw
+  learning_rate: 3.235e-4
+  weight_decay: 2.601e-4
+  n_epochs: 80
+  seed: 40
+  gpu: 7
+  amp: True
+  early_stopping_target: val_PRA
+  early_stopping_patience: 10
+  early_stopping_mode: max
+
+KFOLD:
+  kfold: True  
+  number: 0
+  path: /home/hyj/ChanHyung/SSL/PUZZLE_AI/KFold_10.npz
+
+
+DATASET:
+  val_size : 0.1
+
+DATALOADER:
+  batch_size: 10
+  num_workers: 4
+  shuffle: True
+  pin_memory: True
+
+augumentations:
+  CenterCutout: True
+  EdgeCutout: True
+
+LOGGER:
+  wandb: False
+  plot:
+  - loss
+  - accuracy
+  - dacon_score
+
+DIR:
+  model_path: /home/hyj/ChanHyung/SSL/PUZZLE_AI/my_logs/
+  file_name: best_model_{epoch:02d}-{val_acc:.4f}
+
